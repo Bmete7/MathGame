@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: 7c6dddd05e69c424ea2c1aa1ed78c215
+timeCreated: 1480333303
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Hat
+    100004: Head
+    100006: Pepe_Chest
+    100008: Pepe_Hat
+    100010: Pepe_Head
+    100012: Pepe_LArm1
+    100014: Pepe_LArm2
+    100016: Pepe_LArmDigit11
+    100018: Pepe_LArmPalm
+    100020: Pepe_LLeg1
+    100022: Pepe_LLeg2
+    100024: Pepe_LLegAnkle
+    100026: Pepe_LLegDigit11
+    100028: Pepe_Neck
+    100030: Pepe_Pelvis001
+    100032: Pepe_RArm1
+    100034: Pepe_RArm2
+    100036: Pepe_RArmDigit11
+    100038: Pepe_RArmPalm
+    100040: Pepe_RLeg1
+    100042: Pepe_RLeg2
+    100044: Pepe_RLegAnkle
+    100046: Pepe_RLegDigit11
+    100048: Pepe_Spine1
+    100050: Pepe_Spine2
+    100052: //RootNode
+    100054: Shooes
+    400000: Body
+    400002: Hat
+    400004: Head
+    400006: Pepe_Chest
+    400008: Pepe_Hat
+    400010: Pepe_Head
+    400012: Pepe_LArm1
+    400014: Pepe_LArm2
+    400016: Pepe_LArmDigit11
+    400018: Pepe_LArmPalm
+    400020: Pepe_LLeg1
+    400022: Pepe_LLeg2
+    400024: Pepe_LLegAnkle
+    400026: Pepe_LLegDigit11
+    400028: Pepe_Neck
+    400030: Pepe_Pelvis001
+    400032: Pepe_RArm1
+    400034: Pepe_RArm2
+    400036: Pepe_RArmDigit11
+    400038: Pepe_RArmPalm
+    400040: Pepe_RLeg1
+    400042: Pepe_RLeg2
+    400044: Pepe_RLegAnkle
+    400046: Pepe_RLegDigit11
+    400048: Pepe_Spine1
+    400050: Pepe_Spine2
+    400052: //RootNode
+    400054: Shooes
+    2300000: Hat
+    2300002: Shooes
+    3300000: Hat
+    3300002: Shooes
+    4300000: Shooes
+    4300002: Body
+    4300004: Hat
+    4300006: Head
+    7400000: Idle
+    7400002: Walk
+    7400004: Run
+    7400006: Win
+    7400008: Jump
+    7400010: Crouch
+    7400012: Crush
+    9500000: //RootNode
+    13700000: Body
+    13700002: Head
+    13700004: Shooes
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Pepe_Pelvis001
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle/Pepe_LLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle/Pepe_RLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm/Pepe_LArmDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat/Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm/Pepe_RArmDigit11
+        weight: 1
+      - path: Shooes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 31
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.030162454
+        functionName: playFootStep
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5406033
+        functionName: playFootStep
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Pepe_Pelvis001
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle/Pepe_LLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle/Pepe_RLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm/Pepe_LArmDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat/Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm/Pepe_RArmDigit11
+        weight: 1
+      - path: Shooes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 62
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.14617181
+        functionName: playFootStep
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.661253
+        functionName: playFootStep
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Pepe_Pelvis001
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle/Pepe_LLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle/Pepe_RLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm/Pepe_LArmDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat/Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm/Pepe_RArmDigit11
+        weight: 1
+      - path: Shooes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Win
+      takeName: Take 001
+      firstFrame: 93
+      lastFrame: 123
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Pepe_Pelvis001
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle/Pepe_LLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle/Pepe_RLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm/Pepe_LArmDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat/Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm/Pepe_RArmDigit11
+        weight: 1
+      - path: Shooes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 124
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: playJump
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Pepe_Pelvis001
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle/Pepe_LLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle/Pepe_RLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm/Pepe_LArmDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat/Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm/Pepe_RArmDigit11
+        weight: 1
+      - path: Shooes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crouch
+      takeName: Take 001
+      firstFrame: 155
+      lastFrame: 156
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Pepe_Pelvis001
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle/Pepe_LLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle/Pepe_RLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm/Pepe_LArmDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat/Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm/Pepe_RArmDigit11
+        weight: 1
+      - path: Shooes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crush
+      takeName: Take 001
+      firstFrame: 157
+      lastFrame: 187
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Pepe_Pelvis001
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_LLeg1/Pepe_LLeg2/Pepe_LLegAnkle/Pepe_LLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_RLeg1/Pepe_RLeg2/Pepe_RLegAnkle/Pepe_RLegDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_LArm1/Pepe_LArm2/Pepe_LArmPalm/Pepe_LArmDigit11
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_Neck/Pepe_Head/Pepe_Hat/Hat
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm
+        weight: 1
+      - path: Pepe_Pelvis001/Pepe_Spine1/Pepe_Spine2/Pepe_Chest/Pepe_RArm1/Pepe_RArm2/Pepe_RArmPalm/Pepe_RArmDigit11
+        weight: 1
+      - path: Shooes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 6
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

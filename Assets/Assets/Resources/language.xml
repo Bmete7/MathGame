@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languages>
+    <English>
+         <string name="tab_to_start">Tap to Start !</string>
+         <string name="try_again">Try Again ?</string>
+		 <string name="game_over">Game Over</string>
+		 <string name="you_win">You Win !</string>
+		 <string name="dressing_room">Dressing Room</string>
+		 <string name="remove_ads">Remove Ads</string>
+		 <string name="shop">Shop</string>
+		 <string name="settings">Settings</string>
+      <string name="present">Present</string>
+      <string name="open_present">Open Present ?</string>
+    </English>
+ 
+    <Turkish>
+         <string name="tab_to_start">Başla !</string>
+         <string name="try_again">Tekrar Dene ?</string>
+		 <string name="game_over">Oyun Bitti</string>
+		 <string name="you_win">Kazandın !</string>
+		 <string name="dressing_room">Kıyafet Reyonu</string>
+		 <string name="remove_ads">Reklam Kaldır</string>
+		 <string name="shop">Dükkan</string>
+		 <string name="settings">Ayarlar</string>
+      <string name="present">Hediye</string>
+      <string name="open_present">Hediyeyi Aç ?</string>
+    </Turkish>
+</languages>
