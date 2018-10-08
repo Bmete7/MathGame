@@ -48,7 +48,7 @@ public class gameController : MonoBehaviour {
 	}
 
 	public void gameButtonClicked () {
-		SceneManager.LoadScene ("infiniteRun");
+		SceneManager.LoadScene ("alanTuzak");
 		
 	}
 
