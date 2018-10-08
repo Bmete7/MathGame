@@ -48,7 +48,8 @@ public class gameController : MonoBehaviour {
 	}
 
 	public void gameButtonClicked () {
-		Debug.Log ("deneme1");    
+		Debug.Log ("dene");   
+
 		SceneManager.LoadScene ("infiniteRun");
 		
 	}
