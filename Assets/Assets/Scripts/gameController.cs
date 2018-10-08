@@ -48,6 +48,7 @@ public class gameController : MonoBehaviour {
 	}
 
 	public void gameButtonClicked () {
+		Debug.Log ("asd=");
 		SceneManager.LoadScene ("alanTuzak");
 		
 	}
