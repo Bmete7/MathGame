@@ -6,7 +6,7 @@ using System;
 
 public class gameController : MonoBehaviour {
 
-	public GameObject chicken , turtle , nextButton,gameButton;
+	public GameObject chicken , turtle , nextButton,gameButton, startButton;
 	public Animator anim ;
 
 	public GameObject tavukKonusma, kaplumKonusma;
@@ -32,6 +32,7 @@ public class gameController : MonoBehaviour {
 		while (chicken.transform.rotation.eulerAngles.y >= 145) {
 			chicken.transform.Rotate (Vector3.down * Time.deltaTime * speed);
 			turtle.transform.Rotate (Vector3.up * Time.deltaTime * speed);
+			startButton.SetActive (false);
 		}
 
 		anim.enabled = true;
@@ -48,7 +49,6 @@ public class gameController : MonoBehaviour {
 	}
 
 	public void gameButtonClicked () {
-		Debug.Log ("asd=");
 		SceneManager.LoadScene ("alanTuzak");
 		
 	}
