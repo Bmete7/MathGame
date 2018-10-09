@@ -6,7 +6,7 @@ using System;
 
 public class gameController : MonoBehaviour {
 
-	public GameObject chicken , turtle , nextButton,gameButton, startButton;
+	public GameObject chicken , condor , nextButton,gameButton, startButton;
 	public Animator anim ;
 
 	public GameObject tavukKonusma, kaplumKonusma;
@@ -31,7 +31,7 @@ public class gameController : MonoBehaviour {
 		//Debug.Log(chicken.transform.rotation.eulerAngles.y);
 		while (chicken.transform.rotation.eulerAngles.y >= 145) {
 			chicken.transform.Rotate (Vector3.down * Time.deltaTime * speed);
-			turtle.transform.Rotate (Vector3.up * Time.deltaTime * speed);
+			condor.transform.Rotate (Vector3.up * Time.deltaTime * speed);
 			startButton.SetActive (false);
 		}
 
