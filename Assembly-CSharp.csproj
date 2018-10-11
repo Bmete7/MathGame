@@ -62,6 +62,7 @@
      <Compile Include="Assets\Assets\MobileDepthWater\Scripts\Water\WaterArea.cs" />
      <Compile Include="Assets\Assets\MobileDepthWater\Scripts\Water\WaterMaterialSwitcher.cs" />
      <Compile Include="Assets\Assets\MobileDepthWater\Scripts\Water\WaterPropertyBlockSetter.cs" />
+     <Compile Include="Assets\Assets\Scripts\AlanTuzakScriptController.cs" />
      <Compile Include="Assets\Assets\Scripts\bos.cs" />
      <Compile Include="Assets\Assets\Scripts\gameController.cs" />
      <Compile Include="Assets\Assets\Scripts\islemController.cs" />
