@@ -188,7 +188,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 216601553}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1436379349}
+        m_MethodName: falseAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &216601553
@@ -256,8 +267,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -50, y: 0}
+  m_SizeDelta: {x: 260, y: 230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &274381919
 MonoBehaviour:
@@ -291,7 +302,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'soru 3 '
+  m_Text: "\xC7arpma i\u015Flemini art arda yap\u0131lan toplama i\u015Flemleri gibi
+    d\xFC\u015F\xFCnebilirsin.\n\n\xD6rne\u011Fin 3x2, 3 adet 2 yi birbiri ile toplamakla
+    ayn\u0131 \u015Feydir. \xC7arp\u0131m tablosuna g\xF6z gezdirerek bu i\u015Flemi
+    iyice anlamaya \xE7al\u0131\u015Fal\u0131m"
 --- !u!222 &274381920
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -395,7 +409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 200, y: 0}
+  m_AnchoredPosition: {x: 250, y: 10}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &307442837
@@ -585,8 +599,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -50, y: 0}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &406143836
 MonoBehaviour:
@@ -620,7 +634,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "B\xF6lme i\u015Flemi ise \xE7arpman\u0131n tam anlam\u0131yla tersidir.
+    B\xF6l\xFCnenin, her basama\u011F\u0131na tek tek bak\u0131p, b\xF6l\xFCm hesaplan\u0131r
+    ve her ad\u0131mda b\xF6l\xFCnen eksiltilir. Bu i\u015Flem kalan s\u0131f\u0131rlanana
+    kadar devam eder."
 --- !u!222 &406143837
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -811,7 +828,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &572054294
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1297,6 +1314,74 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 847656289}
+--- !u!1 &858131738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 858131739}
+  - component: {fileID: 858131741}
+  - component: {fileID: 858131740}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &858131739
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 858131738}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2079931673}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 200, y: 70}
+  m_SizeDelta: {x: 250, y: 240}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &858131740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 858131738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: acdc1def6453eed4b9983ab0dab6e5ba, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &858131741
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 858131738}
 --- !u!1 &900747274
 GameObject:
   m_ObjectHideFlags: 0
@@ -1748,7 +1833,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1319387388}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1436379349}
+        m_MethodName: falseAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1319387388
@@ -1961,19 +2057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d980c15cefb99b24284564110a4e7cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionCount: 10
-  anlatimCount: 4
-  sorular:
-  - {fileID: 572054293}
-  - {fileID: 1869301234}
-  - {fileID: 706129081}
-  - {fileID: 2079931672}
-  - {fileID: 2079931672}
-  - {fileID: 2079931672}
-  - {fileID: 2079931672}
-  - {fileID: 2079931672}
-  - {fileID: 2079931672}
-  - {fileID: 2079931672}
+  soru: {fileID: 572054293}
   anlatim:
   - {fileID: 708070483}
   - {fileID: 1869301234}
@@ -1986,6 +2070,63 @@ MonoBehaviour:
   - {fileID: 2052341335}
   nButton: {fileID: 2115584441}
   bButton: {fileID: 341011202}
+  sorularA:
+  - 3 + 5
+  - 4 - 2
+  - 6 + 3
+  - 2 x 1
+  - 8 / 2
+  - 4 x 2
+  - 7 - 2,
+  - 8 + 1
+  - 8 - 1
+  - 3 x 3
+  cevaplarA:
+  - 8
+  - 2
+  - 9
+  - 2
+  - 4
+  - 8
+  - 5
+  - 9
+  - 7
+  - 9
+  cevaplarB:
+  - 3
+  - 1
+  - 8
+  - 1
+  - 0
+  - 1
+  - 3
+  - 10
+  - 6
+  - 33
+  cevaplarC:
+  - 2
+  - 3
+  - 7
+  - 21
+  - 1
+  - 7
+  - 10
+  - 8
+  - 8
+  - 1
+  cevaplarD:
+  - 1
+  - 9
+  - 6
+  - 3
+  - 8
+  - 6
+  - 2
+  - 1
+  - 1
+  - 3
+  correctAnswers: 0
+  totalAnswers: 0
   qStart: {fileID: 508364758}
 --- !u!4 &1436379350
 Transform:
@@ -2454,7 +2595,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1900704439}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1436379349}
+        m_MethodName: correctAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1900704439
@@ -2565,7 +2717,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2052341338}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1436379349}
+        m_MethodName: falseAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2052341338
@@ -2627,6 +2790,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 406143835}
+  - {fileID: 858131739}
   m_Father: {fileID: 691549046}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
