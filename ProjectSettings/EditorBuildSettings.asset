@@ -8,9 +8,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/start.unity
     guid: dc8caa96d7a064e4291123078a9a7ba0
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/e1d2938abb1ea4b859d9e0b0f3f38479
+    guid: e1d2938abb1ea4b859d9e0b0f3f38479
+  - enabled: 1
+    path: Assets/Assets/alanSorulari.unity
+    guid: aa116b594f3e04e37a25014fc6b9a493
+  - enabled: 1
+    path: Assets/Assets/kesirler.unity
+    guid: 4bab71de6a8654d14827ed94fc7d0207
+  - enabled: 1
+    path: Assets/Assets/dortIslem.unity
+    guid: 56c48bb42111b6a4289043ecd9c4c21c
+  - enabled: 1
+    path: Assets/Assets/sonSahne.unity
+    guid: 7dceb8b7565cf485e90470fc720fe0f2
   - enabled: 1
     path: Assets/Assets/alanTuzak.unity
-    guid: e1d2938abb1ea4b859d9e0b0f3f38479
-  - enabled: 0
-    path: Assets/Assets/infiniteRun.unity
-    guid: 261ad2bedeb9b824ea5ad6ad6df2e50b
+    guid: 2bb6f050464ba4cdc88a236810ade784

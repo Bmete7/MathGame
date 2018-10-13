@@ -17,7 +17,8 @@ public class AlanTuzakScriptController : MonoBehaviour {
 
 
 	public void tuzakGecClicked () {
-		SceneManager.LoadScene ("start");
+		SceneManager.LoadScene ("dortIslem");
+
 	}
 
 }
